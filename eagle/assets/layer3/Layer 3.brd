@@ -186,6 +186,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
+<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwxNDMxNzc3" projecturn="a.YnVzaW5lc3M6Z21haWwxNDMxNzc3IzIwMjEwMTE1MzcxOTY3NzA2" f3durn="urn:adsk.wipprod:dm.lineage:aVCnS0wBSYmPTEc4_Ognuw" pcbguid="185ac5a2-f8a8-410f-be14-0dbbc379be1b" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="5a73a0e4-69ab-4229-8931-0e738af4bbc5" lastsyncedrevisionid="5a73a0e4-69ab-4229-8931-0e738af4bbc5" lastboardhashguid="35cb15b9-3196-41f2-bbec-5ed5c38179d4" lastpushedtime="2021-11-26T09:10:23Z" linktopcb3d="true"/>
 <plain>
 <circle x="0" y="0" radius="45" width="0.001" layer="20"/>
 </plain>
@@ -1914,9 +1915,9 @@ design rules under a new name.</description>
 <attribute name="SF_SKU" value="COM-00102 " x="63.5" y="107.95" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="7.62" y="25.273" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="BLUETOOTH" library="JH" library_urn="urn:adsk.eagle:library:6027132" package="HC-05" package3d_urn="urn:adsk.eagle:package:16970951/2" value="HC-05" x="21.59" y="-13.97" smashed="yes" rot="MR270">
-<attribute name="NAME" x="20.193" y="-12.7" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270"/>
-<attribute name="VALUE" x="23.876" y="-12.7" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270"/>
+<element name="BLUETOOTH" library="JH" library_urn="urn:adsk.eagle:library:6027132" package="HC-05" package3d_urn="urn:adsk.eagle:package:16970951/2" value="HC-05" x="21.59" y="-15.24" smashed="yes" rot="MR270">
+<attribute name="NAME" x="20.193" y="-13.97" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270"/>
+<attribute name="VALUE" x="23.876" y="-13.97" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270"/>
 </element>
 <element name="BOOT" library="MY-LIBRARY" library_urn="urn:adsk.eagle:library:11016882" package="MOMENTARY_SWITCH_4X3" package3d_urn="urn:adsk.eagle:package:11016890/3" value="MOMENTARY_SWITCH_4X3" x="-27.94" y="3.81" smashed="yes" rot="R270">
 <attribute name="NAME" x="-31.242" y="6.985" size="1.27" layer="25" rot="R270"/>
@@ -2010,9 +2011,9 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="" x="-50.8" y="92.71" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-18.542" y="19.05" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="SERVO_IO" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:11010760" package="1X03_LOCK" package3d_urn="urn:adsk.eagle:package:11011273/2" value="" x="-21.59" y="6.35" smashed="yes" rot="R270">
-<attribute name="NAME" x="-20.193" y="7.62" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
-<attribute name="VALUE" x="-23.622" y="7.62" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+<element name="SERVO_IO" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:11010760" package="1X03_LOCK" package3d_urn="urn:adsk.eagle:package:11011273/2" value="" x="-22.86" y="5.08" smashed="yes" rot="R270">
+<attribute name="NAME" x="-21.463" y="6.35" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="VALUE" x="-24.892" y="6.35" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="STM32_IR" library="JH" library_urn="urn:adsk.eagle:library:6027132" package="LQFP48" package3d_urn="urn:adsk.eagle:package:15744454/3" value="STM32F103CBT6" x="0" y="0" smashed="yes" rot="MR0">
 <attribute name="NAME" x="2.54" y="1.27" size="1.27" layer="26" rot="MR0"/>
@@ -2044,7 +2045,7 @@ design rules under a new name.</description>
 <contactref element="BLUETOOTH" pad="5"/>
 <contactref element="Q2" pad="1"/>
 <contactref element="R13" pad="1"/>
-<wire x1="-20.32" y1="-30.06" x2="21.59" y2="-24.13" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.32" y1="-30.06" x2="21.59" y2="-25.4" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.27" y1="20.64" x2="-20.32" y2="-30.06" width="0" layer="19" extent="1-1"/>
 <wire x1="26.67" y1="-20.55" x2="-0.27" y2="20.64" width="0" layer="19" extent="1-1"/>
 <wire x1="21.59" y1="-10.16" x2="26.67" y2="-20.55" width="0" layer="19" extent="1-1"/>
@@ -2055,8 +2056,8 @@ design rules under a new name.</description>
 <contactref element="R12" pad="1"/>
 <contactref element="SERVO_IO" pad="2"/>
 <contactref element="J1" pad="2"/>
-<wire x1="-21.717" y1="3.81" x2="-20.32" y2="-26.25" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.3078" y1="-5.08" x2="-21.717" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.987" y1="2.54" x2="-20.32" y2="-26.25" width="0" layer="19" extent="1-1"/>
+<wire x1="-24.3078" y1="-5.08" x2="-22.987" y2="2.54" width="0" layer="19" extent="1-1"/>
 <wire x1="7.62" y1="22.86" x2="-24.3078" y2="-5.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3V3_SWITCH">
@@ -2334,10 +2335,10 @@ design rules under a new name.</description>
 <wire x1="33.300703125" y1="-26.966378125" x2="37.23909375" y2="-21.5" width="0" layer="19" extent="1-1"/>
 <wire x1="30.405590625" y1="-30.405590625" x2="33.300703125" y2="-26.966378125" width="0" layer="19" extent="1-1"/>
 <wire x1="-6.35" y1="25.4" x2="-8.89" y2="23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="21.844" y1="-21.59" x2="33.300703125" y2="-26.966378125" width="0" layer="19" extent="1-1"/>
+<wire x1="21.844" y1="-22.86" x2="33.300703125" y2="-26.966378125" width="0" layer="19" extent="1-1"/>
 <wire x1="24.13" y1="-10.16" x2="27.94" y2="-3.85" width="0" layer="19" extent="16-16"/>
-<wire x1="-21.463" y1="6.35" x2="-41.534809375" y2="11.12921875" width="0" layer="19" extent="1-1"/>
-<wire x1="-4.758" y1="2.25" x2="-21.463" y2="6.35" width="0" layer="19" extent="16-16"/>
+<wire x1="-22.733" y1="5.08" x2="-41.534809375" y2="11.12921875" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.758" y1="2.25" x2="-22.733" y2="5.08" width="0" layer="19" extent="16-16"/>
 <wire x1="2.25" y1="4.758" x2="-4.758" y2="2.25" width="0" layer="19" extent="16-16"/>
 <wire x1="4.758" y1="-2.25" x2="2.25" y2="4.758" width="0" layer="19" extent="16-16"/>
 <wire x1="-0.75" y1="-4.758" x2="4.758" y2="-2.25" width="0" layer="19" extent="16-16"/>
@@ -2688,19 +2689,19 @@ design rules under a new name.</description>
 <signal name="RX_BT">
 <contactref element="U$1" pad="32/A13"/>
 <contactref element="BLUETOOTH" pad="2"/>
-<wire x1="-29.21" y1="10.16" x2="21.844" y2="-16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="-29.21" y1="10.16" x2="21.844" y2="-17.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TX_BT">
 <contactref element="U$1" pad="31/A12"/>
 <contactref element="BLUETOOTH" pad="3"/>
-<wire x1="-26.67" y1="10.16" x2="21.59" y2="-19.05" width="0" layer="19" extent="1-1"/>
+<wire x1="-26.67" y1="10.16" x2="21.59" y2="-20.32" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SERVO_HV">
 <contactref element="Q2" pad="3"/>
 <contactref element="R12" pad="2"/>
 <contactref element="SERVO_IO" pad="3"/>
-<wire x1="-21.463" y1="1.27" x2="-20.32" y2="-24.55" width="0" layer="19" extent="1-1"/>
-<wire x1="-2.37" y1="21.59" x2="-21.463" y2="1.27" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.733" y1="0" x2="-20.32" y2="-24.55" width="0" layer="19" extent="1-1"/>
+<wire x1="-2.37" y1="21.59" x2="-22.733" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -2721,6 +2722,11 @@ which will not be processed correctly with this version.
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports Fusion synchronisation.
+This feature will not be available in this version and saving
+the document will break the link to the Fusion PCB feature.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
