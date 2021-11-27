@@ -54,6 +54,10 @@ what tf its aldy 12
 
 taobao time ezpz
 
+its not ezpz
+
+stupid piece of shit
+
 
 
 Vincent11/27/2021
