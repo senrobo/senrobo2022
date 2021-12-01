@@ -2983,7 +2983,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="COMPASS" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="BNO055" device="" package3d_urn="urn:adsk.eagle:package:16833735/3"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="BNO_RESET" library="MY-LIBRARY" library_urn="urn:adsk.eagle:library:11016882" deviceset="MOMENTARY_SWITCH_4X3" device="" package3d_urn="urn:adsk.eagle:package:11016890/3" value="MOMENTARY_SWITCH_4X3"/>
+<part name="COMPASS_RST" library="MY-LIBRARY" library_urn="urn:adsk.eagle:library:11016882" deviceset="MOMENTARY_SWITCH_4X3" device="" package3d_urn="urn:adsk.eagle:package:11016890/3" value="MOMENTARY_SWITCH_4X3"/>
 <part name="SUPPLY33" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="3V3_PWR" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:11044690" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM-LOCK" package3d_urn="urn:adsk.eagle:package:11044812/2"/>
 </parts>
@@ -3103,8 +3103,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND6" gate="1" x="193.04" y="88.9" smashed="yes">
 <attribute name="VALUE" x="193.04" y="88.646" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="BNO_RESET" gate="G$1" x="193.04" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="200.66" y="97.536" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
+<instance part="COMPASS_RST" gate="G$1" x="193.04" y="96.52" smashed="yes" rot="R90">
+<attribute name="NAME" x="200.66" y="97.536" size="1.778" layer="95" rot="R180" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY33" gate="G$1" x="172.72" y="73.66" smashed="yes">
 <attribute name="VALUE" x="172.72" y="76.454" size="1.778" layer="96" align="bottom-center"/>
@@ -3328,7 +3328,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="200.66" y="106.68"/>
 </segment>
 <segment>
-<pinref part="BNO_RESET" gate="G$1" pin="1"/>
+<pinref part="COMPASS_RST" gate="G$1" pin="1"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -3350,7 +3350,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="COMPASS" gate="G$1" pin="RESET"/>
 <wire x1="180.34" y1="101.6" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
 <label x="180.34" y="101.6" size="1.778" layer="95"/>
-<pinref part="BNO_RESET" gate="G$1" pin="2"/>
+<pinref part="COMPASS_RST" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SDA2" class="0">
