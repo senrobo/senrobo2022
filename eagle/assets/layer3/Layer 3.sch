@@ -7254,6 +7254,7 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 </nets>
 </sheet>
 <sheet>
+<description>STEM32</description>
 <plain>
 </plain>
 <instances>
@@ -7800,6 +7801,7 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 </nets>
 </sheet>
 <sheet>
+<description>IR Sensor</description>
 <plain>
 </plain>
 <instances>
