@@ -7598,20 +7598,6 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 <label x="93.98" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IR4" class="0">
-<segment>
-<pinref part="STM32_IR" gate="G$1" pin="PA0_WKUP/USART2_CTS/ADC12_IN0/TIM2_CH1_ETR"/>
-<wire x1="106.68" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
-<label x="93.98" y="93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="IR5" class="0">
-<segment>
-<pinref part="STM32_IR" gate="G$1" pin="PA1/USART2_RTS/ADC12_IN1/TIM2_CH2"/>
-<wire x1="106.68" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
-<label x="93.98" y="91.44" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="IR6" class="0">
 <segment>
 <pinref part="STM32_IR" gate="G$1" pin="PA2/USART2_TX/ADC12_IN2/TIM2_CH3"/>
@@ -7796,6 +7782,20 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 <wire x1="106.68" y1="111.76" x2="104.14" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="111.76" x2="104.14" y2="116.84" width="0.1524" layer="91"/>
 <label x="104.14" y="114.3" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="IR4" class="0">
+<segment>
+<pinref part="STM32_IR" gate="G$1" pin="PA0_WKUP/USART2_CTS/ADC12_IN0/TIM2_CH1_ETR"/>
+<wire x1="106.68" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
+<label x="93.98" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IR5" class="0">
+<segment>
+<pinref part="STM32_IR" gate="G$1" pin="PA1/USART2_RTS/ADC12_IN1/TIM2_CH2"/>
+<wire x1="106.68" y1="91.44" x2="93.98" y2="91.44" width="0.1524" layer="91"/>
+<label x="93.98" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
