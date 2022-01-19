@@ -10354,6 +10354,7 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 </parts>
 <sheets>
 <sheet>
+<description>Power</description>
 <plain>
 <text x="35.56" y="20.32" size="5.08" layer="91">3.3V BUCK</text>
 </plain>
@@ -10526,6 +10527,7 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 </nets>
 </sheet>
 <sheet>
+<description>Light Sensor</description>
 <plain>
 </plain>
 <instances>
@@ -11780,6 +11782,7 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 </nets>
 </sheet>
 <sheet>
+<description>Motor Drivers</description>
 <plain>
 </plain>
 <instances>
@@ -13299,6 +13302,7 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 </nets>
 </sheet>
 <sheet>
+<description>STM32</description>
 <plain>
 </plain>
 <instances>
@@ -14079,6 +14083,7 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 </nets>
 </sheet>
 <sheet>
+<description>Battery</description>
 <plain>
 <text x="43.18" y="38.1" size="5.08" layer="91">5V BUCK</text>
 </plain>
