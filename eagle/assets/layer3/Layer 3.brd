@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -1214,6 +1214,10 @@
 <wire x1="-59.14333125" y1="-10.240490625" x2="-59.136540625" y2="-10.18258125" width="0.001" layer="20"/>
 <wire x1="-59.136540625" y1="-10.18258125" x2="-59.136490625" y2="-10.125109375" width="0.001" layer="20"/>
 <wire x1="-59.136490625" y1="-10.125109375" x2="-59.14283125" y2="-10.069190625" width="0.001" layer="20"/>
+<circle x="40.60455" y="-15.4656" radius="1.5" width="0.001" layer="20"/>
+<circle x="40.60455" y="17.1594" radius="1.5" width="0.001" layer="20"/>
+<circle x="40.6" y="17" radius="3.54114375" width="0.1524" layer="39"/>
+<circle x="40.6" y="-15.5" radius="3.54114375" width="0.1524" layer="39"/>
 </plain>
 <libraries>
 <library name="JH" urn="urn:adsk.eagle:library:6027132">
@@ -2934,7 +2938,6 @@ design rules under a new name.</description>
 </element>
 <element name="BLUETOOTH" library="JH" library_urn="urn:adsk.eagle:library:6027132" package="HC-05" package3d_urn="urn:adsk.eagle:package:16970951/2" value="HC-05" x="-22.51825" y="-37.0026125" smashed="yes">
 <attribute name="NAME" x="-23.78825" y="-35.6056125" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="-23.78825" y="-39.2886125" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
 <element name="BOOT" library="MY-LIBRARY" library_urn="urn:adsk.eagle:library:11016882" package="MOMENTARY_SWITCH_4X3" package3d_urn="urn:adsk.eagle:package:11016890/3" value="MOMENTARY_SWITCH_4X3" x="25.79" y="14.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.40406875" y="16.626346875" size="1.27" layer="25" rot="R270"/>
@@ -3018,10 +3021,7 @@ design rules under a new name.</description>
 </element>
 <element name="U$1" library="JH" library_urn="urn:adsk.eagle:library:6027132" package="TEENSY_3.5/3.6_NO_MIDDLE" package3d_urn="urn:adsk.eagle:package:16827820/3" value="TEENSY_3.5/3.6_NO_MIDDLE" x="-26.673640625" y="1.398534375" smashed="yes" rot="MR270"/>
 <element name="U$14" library="MY-LIBRARY" library_urn="urn:adsk.eagle:library:11016882" package="2X7" package3d_urn="urn:adsk.eagle:package:16537177/2" value="CONN_07X2" x="-37.446175" y="5.9703625" smashed="yes" rot="R90"/>
-<element name="U$8" library="openmv" library_urn="urn:adsk.eagle:library:16780289" package="OPENMV3" package3d_urn="urn:adsk.eagle:package:16780301/5" value="OPENMV3" x="17.78" y="36.83" smashed="yes" rot="R180">
-<attribute name="NAME" x="17.78" y="-8.128" size="1.27" layer="49" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="-11.049" y="38.608" size="1.27" layer="27" rot="R180"/>
-</element>
+<element name="U$8" library="openmv" library_urn="urn:adsk.eagle:library:16780289" package="OPENMV3" package3d_urn="urn:adsk.eagle:package:16780301/5" value="OPENMV3" x="17.78" y="36.83" smashed="yes" rot="R180"/>
 <element name="X1" library="con-JST SH" library_urn="urn:adsk.eagle:library:16859530" package="SM06B-SRSS-TB" package3d_urn="urn:adsk.eagle:package:16859586/2" value="SM06B-SRSS-TB" x="5.622" y="31.795" smashed="yes" rot="MR0"/>
 <element name="Y1" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:11010627" package="CRYSTAL-SMD-5X3.2-2PAD" package3d_urn="urn:adsk.eagle:package:11010674/2" value="8MHz" x="9.95" y="22.09" smashed="yes" rot="R90">
 <attribute name="VALUE" x="9.93" y="25.402" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
@@ -3687,8 +3687,9 @@ design rules under a new name.</description>
 <via x="11.543" y="15.59" extent="1-16" drill="0.508"/>
 <wire x1="15.27" y1="15.58" x2="15.26" y2="15.59" width="0.254" layer="16"/>
 <wire x1="11.543" y1="15.59" x2="15.26" y2="15.59" width="0.254" layer="16"/>
-<wire x1="39.304853125" y1="18.379" x2="53.654934375" y2="4.02891875" width="0.254" layer="16"/>
-<wire x1="21.799875" y1="18.379" x2="39.304853125" y2="18.379" width="0.254" layer="16"/>
+<wire x1="40.072934375" y1="4.02891875" x2="25.722853125" y2="18.379" width="0.254" layer="16"/>
+<wire x1="40.072934375" y1="4.02891875" x2="53.654934375" y2="4.02891875" width="0.254" layer="16"/>
+<wire x1="21.799875" y1="18.379" x2="25.722853125" y2="18.379" width="0.254" layer="16"/>
 </signal>
 <signal name="IR4">
 <contactref element="3U4" pad="OUT"/>
