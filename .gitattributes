@@ -1,3 +1,4 @@
 *.dwg filter=lfs diff=lfs merge=lfs -text
 *.iges filter=lfs diff=lfs merge=lfs -text
 *.dxf filter=lfs diff=lfs merge=lfs -text
+*.step filter=lfs diff=lfs merge=lfs -text
