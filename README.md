@@ -11,3 +11,5 @@ Yay we passed the 100th commit milestone
 - Layer 3 and 4 PCB Done on 19/1/2022
 
 ### Programming
+
+Screw Git LFS
