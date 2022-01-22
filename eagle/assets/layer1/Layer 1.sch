@@ -9010,7 +9010,7 @@ CONN_02
 <part name="LD34" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="3528LED" device="" package3d_urn="urn:adsk.eagle:package:6740529/3"/>
 <part name="LD35" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="3528LED" device="" package3d_urn="urn:adsk.eagle:package:6740529/3"/>
 <part name="LD36" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="3528LED" device="" package3d_urn="urn:adsk.eagle:package:6740529/3"/>
-<part name="LS1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:11044690" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM-LOCK" package3d_urn="urn:adsk.eagle:package:11044812/2"/>
+<part name="LIGHT_SWITCH" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:11044690" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM-LOCK" package3d_urn="urn:adsk.eagle:package:11044812/2"/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LC1" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3" value="1uF"/>
 <part name="LC2" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3" value="1uF"/>
@@ -9179,7 +9179,7 @@ CONN_02
 <part name="MU2" library="MY-LIBRARY" library_urn="urn:adsk.eagle:library:11016882" deviceset="SN74LVC2G04DBVR" device="" package3d_urn="urn:adsk.eagle:package:16299771/2"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="S3" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:11044690" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM-LOCK" package3d_urn="urn:adsk.eagle:package:11044812/2"/>
+<part name="MOTOR_SWITCH" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:11044690" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM-LOCK" package3d_urn="urn:adsk.eagle:package:11044812/2"/>
 <part name="GND37" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="M1J1" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="XT30" device="PB-F" package3d_urn="urn:adsk.eagle:package:15925142/7"/>
 <part name="M2J1" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="XT30" device="PB-F" package3d_urn="urn:adsk.eagle:package:15925142/7"/>
@@ -9577,7 +9577,7 @@ CONN_02
 <instance part="LD36" gate="G$1" x="-116.84" y="139.7" smashed="yes">
 <attribute name="NAME" x="-120.269" y="135.128" size="1.778" layer="95" font="vector" rot="R90"/>
 </instance>
-<instance part="LS1" gate="1" x="-142.24" y="175.26" smashed="yes" rot="R270">
+<instance part="LIGHT_SWITCH" gate="1" x="-142.24" y="175.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="-146.812" y="173.99" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="-145.542" y="174.244" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
@@ -10036,7 +10036,7 @@ CONN_02
 <junction x="-116.84" y="142.24"/>
 <wire x1="-20.32" y1="142.24" x2="-20.32" y2="154.94" width="0.1524" layer="91"/>
 <junction x="-20.32" y="154.94"/>
-<pinref part="LS1" gate="1" pin="O"/>
+<pinref part="LIGHT_SWITCH" gate="1" pin="O"/>
 <wire x1="-139.7" y1="170.18" x2="-139.7" y2="167.64" width="0.1524" layer="91"/>
 <junction x="-139.7" y="167.64"/>
 <label x="-138.938" y="168.402" size="1.778" layer="95"/>
@@ -10096,7 +10096,7 @@ CONN_02
 <junction x="66.04" y="78.74"/>
 </segment>
 <segment>
-<pinref part="LS1" gate="1" pin="P"/>
+<pinref part="LIGHT_SWITCH" gate="1" pin="P"/>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
@@ -11071,7 +11071,7 @@ CONN_02
 <instance part="GND17" gate="1" x="50.8" y="53.34" smashed="yes">
 <attribute name="VALUE" x="50.8" y="53.086" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="S3" gate="1" x="22.86" y="55.88" smashed="yes" rot="R270">
+<instance part="MOTOR_SWITCH" gate="1" x="22.86" y="55.88" smashed="yes" rot="R270">
 <attribute name="NAME" x="25.908" y="54.61" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="19.558" y="54.864" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
@@ -11313,7 +11313,7 @@ CONN_02
 <label x="40.64" y="124.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="S3" gate="1" pin="P"/>
+<pinref part="MOTOR_SWITCH" gate="1" pin="P"/>
 <wire x1="22.86" y1="58.42" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
 <label x="22.86" y="60.96" size="1.778" layer="95"/>
 </segment>
@@ -11448,7 +11448,7 @@ CONN_02
 <wire x1="50.8" y1="58.42" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="S3" gate="1" pin="O"/>
+<pinref part="MOTOR_SWITCH" gate="1" pin="O"/>
 <pinref part="GND37" gate="1" pin="GND"/>
 </segment>
 <segment>
