@@ -2,7 +2,6 @@
 *.dwl
 *.dwl2
 *.log
-*.iges
 *.step
 *.s#1
 *.s#2
