@@ -2,3 +2,5 @@
 *.dwl
 *.dwl2
 *.log
+.iges
+.step
