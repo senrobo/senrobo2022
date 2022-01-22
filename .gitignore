@@ -2,5 +2,6 @@
 *.dwl
 *.dwl2
 *.log
-.iges
-.step
+*.iges
+*.step
+.dwg/final
