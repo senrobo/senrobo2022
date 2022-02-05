@@ -9223,7 +9223,7 @@ CONN_02
 <part name="R4" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441228/3" value="10k"/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R5" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441228/3" value="470"/>
-<part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:11010284" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:11010371/2" value="BLUE"/>
+<part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:11010284" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:11010371/2" value="STM_LED"/>
 <part name="GND32" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="U$14" library="SparkFun-PowerSymbols" deviceset="VCCA" device="" value="A3.3V"/>
@@ -12335,16 +12335,16 @@ CONN_02
 <instance part="GND31" gate="1" x="-27.94" y="104.14" smashed="yes">
 <attribute name="VALUE" x="-27.94" y="103.886" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="-177.8" y="73.66" smashed="yes">
-<attribute name="NAME" x="-177.8" y="75.184" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="-177.8" y="72.136" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="R5" gate="G$1" x="-175.26" y="76.2" smashed="yes">
+<attribute name="NAME" x="-175.26" y="77.724" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="-175.26" y="74.676" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="D1" gate="D1" x="-185.42" y="73.66" smashed="yes" rot="R270">
-<attribute name="NAME" x="-189.992" y="77.089" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="-189.992" y="71.755" size="1.778" layer="96" font="vector" align="top-left"/>
+<instance part="D1" gate="D1" x="-182.88" y="76.2" smashed="yes" rot="R270">
+<attribute name="NAME" x="-187.452" y="79.629" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-187.452" y="74.295" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="GND32" gate="1" x="-193.04" y="68.58" smashed="yes">
-<attribute name="VALUE" x="-193.04" y="68.326" size="1.778" layer="96" align="top-center"/>
+<instance part="GND32" gate="1" x="-190.5" y="71.12" smashed="yes">
+<attribute name="VALUE" x="-190.5" y="70.866" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY19" gate="G$1" x="-53.34" y="137.16" smashed="yes">
 <attribute name="VALUE" x="-53.34" y="139.954" size="1.778" layer="96" align="bottom-center"/>
@@ -12523,9 +12523,9 @@ CONN_02
 </segment>
 <segment>
 <pinref part="D1" gate="D1" pin="C"/>
-<wire x1="-190.5" y1="73.66" x2="-193.04" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-187.96" y1="76.2" x2="-190.5" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND32" gate="1" pin="GND"/>
-<wire x1="-193.04" y1="73.66" x2="-193.04" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-190.5" y1="76.2" x2="-190.5" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$15" gate="G$1" pin="14"/>
@@ -12672,13 +12672,6 @@ CONN_02
 <wire x1="-53.34" y1="124.46" x2="-53.34" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="121.92" x2="-50.8" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="BOOT" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$73" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="PB1/ADC12_IN9/TIM3_CH4"/>
-<wire x1="-157.48" y1="73.66" x2="-172.72" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$74" class="0">
@@ -12922,6 +12915,13 @@ CONN_02
 <wire x1="-101.6" y1="17.78" x2="-88.9" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="U$15" gate="G$1" pin="12"/>
 <label x="-101.6" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$73" class="0">
+<segment>
+<pinref part="U$2" gate="G$1" pin="PB0/ADC12_IN8/TIM3_CH3"/>
+<wire x1="-157.48" y1="76.2" x2="-170.18" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
