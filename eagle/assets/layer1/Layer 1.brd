@@ -185,7 +185,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwxNDMxNzc3" projecturn="a.YnVzaW5lc3M6Z21haWwxNDMxNzc3IzIwMjIwMTE1NDg1NTYyMzgx" f3durn="urn:adsk.wipprod:dm.lineage:nDmFgUl6RZa3eTa8bgo8tA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="02643f0a-3c8d-4b04-b736-eb9205f248e8" lastsyncedrevisionid="02643f0a-3c8d-4b04-b736-eb9205f248e8" lastboardhashguid="83fbc4f4-e87f-b77f-54a5-c070eaef2052" lastpushedtime="2022-02-05T18:48:12Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6Z21haWwxNDMxNzc3" projecturn="a.YnVzaW5lc3M6Z21haWwxNDMxNzc3IzIwMjIwMTE1NDg1NTYyMzgx" f3durn="urn:adsk.wipprod:dm.lineage:nDmFgUl6RZa3eTa8bgo8tA" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="f0251ca8-9b84-4fec-a984-e50c4513b1eb" lastsyncedrevisionid="f0251ca8-9b84-4fec-a984-e50c4513b1eb" lastboardhashguid="f81157fa-4b4a-ecdd-a55e-fc04ba1bff1d" lastpushedtime="2022-02-06T04:44:48Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-55.89935" y1="80.49386875" x2="-56.1793" y2="80.258790625" width="0.001" layer="20"/>
 <wire x1="-56.1793" y1="80.258790625" x2="-56.416690625" y2="79.969440625" width="0.001" layer="20"/>
@@ -7163,11 +7163,11 @@ design rules under a new name.</description>
 </polygon>
 <wire x1="74.85" y1="6" x2="69.35" y2="11.5" width="0.508" layer="1"/>
 <wire x1="69.35" y1="11.5" x2="69" y2="11.5" width="0.508" layer="1"/>
-<wire x1="78.79588125" y1="-8.51368125" x2="78.79588125" y2="3.888740625" width="0.508" layer="16"/>
-<wire x1="78.79588125" y1="-8.51368125" x2="79.2822" y2="-9" width="0.508" layer="16"/>
-<via x="78.79588125" y="3.888740625" extent="1-16" drill="0.8"/>
-<wire x1="78.79588125" y1="3.888740625" x2="78.79588125" y2="6.006840625" width="0.508" layer="1"/>
-<wire x1="78.79588125" y1="6.006840625" x2="78.8001" y2="6.011059375" width="0.508" layer="1"/>
+<wire x1="78.78915625" y1="-8.50695625" x2="78.78915625" y2="4.220121875" width="0.508" layer="16"/>
+<wire x1="78.78915625" y1="-8.50695625" x2="79.2822" y2="-9" width="0.508" layer="16"/>
+<via x="78.78915625" y="4.220121875" extent="1-16" drill="0.8"/>
+<wire x1="78.78915625" y1="4.220121875" x2="78.78915625" y2="6.000115625" width="0.508" layer="1"/>
+<wire x1="78.78915625" y1="6.000115625" x2="78.8001" y2="6.011059375" width="0.508" layer="1"/>
 <wire x1="74.85" y1="6" x2="78.789040625" y2="6" width="0.508" layer="1"/>
 <wire x1="78.789040625" y1="6" x2="78.8001" y2="6.011059375" width="0.508" layer="1"/>
 <wire x1="81.5991375" y1="-7.603" x2="82.7564625" y2="-7.603" width="0.508" layer="16"/>
@@ -7175,7 +7175,6 @@ design rules under a new name.</description>
 <wire x1="80.2021375" y1="-9" x2="81.5991375" y2="-7.603" width="0.508" layer="16"/>
 <wire x1="86.06136875" y1="-10.90790625" x2="86.06136875" y2="-10.94638125" width="0.508" layer="16"/>
 <wire x1="86.06136875" y1="-10.90790625" x2="82.7564625" y2="-7.603" width="0.508" layer="16"/>
-<wire x1="67.8784" y1="2.436621875" x2="74.85" y2="6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="ESC_HV">
 <contactref element="R8" pad="2"/>
