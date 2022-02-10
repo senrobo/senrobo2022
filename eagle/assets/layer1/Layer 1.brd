@@ -3022,7 +3022,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-19.97976875" y="16.573553125" size="0.7112" layer="27" font="vector" ratio="18" rot="R270" align="top-center"/>
 </element>
 <element name="R8" library="JH" library_urn="urn:adsk.eagle:library:6027132" package="R0603" package3d_urn="urn:adsk.eagle:package:15441228/3" value="4.7k" x="86.06136875" y="-11.79638125" smashed="yes" rot="MR270">
-<attribute name="NAME" x="85.29936875" y="-11.79638125" size="0.7112" layer="26" font="vector" ratio="18" rot="MR270" align="bottom-center"/>
 <attribute name="VALUE" x="86.82336875" y="-11.79638125" size="0.7112" layer="28" font="vector" ratio="18" rot="MR270" align="top-center"/>
 </element>
 <element name="R9" library="JH" library_urn="urn:adsk.eagle:library:6027132" package="R0603" package3d_urn="urn:adsk.eagle:package:15441228/3" value="4.7k" x="80.62388125" y="-12.6452375" smashed="yes" rot="MR90">
