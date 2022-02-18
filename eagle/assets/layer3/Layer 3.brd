@@ -239,13 +239,6 @@
 <wire x1="-75.26285" y1="12.85095" x2="-80.59743125" y2="15.627959375" width="0.001" layer="20" curve="-35"/>
 <wire x1="-80.59743125" y1="15.627959375" x2="-86.590940625" y2="21.621459375" width="0.001" layer="20"/>
 <wire x1="-86.590940625" y1="21.621459375" x2="-87.430209375" y2="21.386540625" width="0.001" layer="20" curve="121.28"/>
-<circle x="0" y="-93.46661875" radius="1.6" width="0.001" layer="20"/>
-<circle x="-88.919540625" y="-27.2121" radius="1.6" width="0.001" layer="20"/>
-<circle x="-94" y="0.03338125" radius="1.6" width="0.001" layer="20"/>
-<circle x="-88.919540625" y="27.27885" radius="1.6" width="0.001" layer="20"/>
-<circle x="88.919540625" y="27.27885" radius="1.6" width="0.001" layer="20"/>
-<circle x="94" y="0.03338125" radius="1.6" width="0.001" layer="20"/>
-<circle x="88.919540625" y="-27.2121" radius="1.6" width="0.001" layer="20"/>
 </plain>
 <libraries>
 <library name="JH" urn="urn:adsk.eagle:library:6027132">
