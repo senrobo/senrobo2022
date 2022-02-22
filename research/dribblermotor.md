@@ -28,7 +28,7 @@ why am i here just to suffer
 
 and vibrations become amplified at such high speeds
 
- ###### jh *—*  26/11/2021at 11:56 PM
+###### jh *—*  26/11/2021at 11:56 PM
 
    anw ir ball need higher rpm
 
@@ -48,8 +48,6 @@ lightweight matches are super fast paced lol if they ram into u and your dribble
 
 Vincent - 11/26/2021
 
-
-
 what tf its aldy 12
 
 taobao time ezpz
@@ -57,8 +55,6 @@ taobao time ezpz
 its not ezpz
 
 stupid piece of shit
-
-
 
 Vincent11/27/2021
 
