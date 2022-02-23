@@ -2916,6 +2916,133 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Resistors" urn="urn:adsk.eagle:library:532">
+<description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
+This library contains resistors. Reference designator:R. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="0603" urn="urn:adsk.eagle:package:39650/1" type="box" library_version="1">
+<description>Generic 1608 (0603) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="RESISTOR" urn="urn:adsk.eagle:symbol:39614/1" library_version="1">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="4.7KOHM" urn="urn:adsk.eagle:component:39723/1" prefix="R" library_version="1">
+<description>&lt;h3&gt;4.7kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-1%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39650/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-07857"/>
+<attribute name="VALUE" value="4.7k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-PowerSymbols" urn="urn:adsk.eagle:library:530">
+<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
+This library contains power, ground, and voltage-supply symbols.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="DGND" urn="urn:adsk.eagle:symbol:39415/1" library_version="1">
+<description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" urn="urn:adsk.eagle:component:39439/1" prefix="GND" library_version="1">
+<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
+<gates>
+<gate name="1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2981,11 +3108,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="3RD_LAYER" library="con-JST SH" library_urn="urn:adsk.eagle:library:16859530" deviceset="SM04B-SRSS" device="-TB" package3d_urn="urn:adsk.eagle:package:16859588/2"/>
 <part name="COMPASS" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="BNO055" device="" package3d_urn="urn:adsk.eagle:package:16833735/3"/>
-<part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="COMPASS_RST" library="MY-LIBRARY" library_urn="urn:adsk.eagle:library:11016882" deviceset="MOMENTARY_SWITCH_4X3" device="" package3d_urn="urn:adsk.eagle:package:11016890/3" value="MOMENTARY_SWITCH_4X3"/>
 <part name="SUPPLY33" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="3V3_PWR" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:11044690" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM-LOCK" package3d_urn="urn:adsk.eagle:package:11044812/2"/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="4.7KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="4.7k"/>
+<part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="4.7KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="4.7k"/>
+<part name="GND1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3097,21 +3226,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="COMPASS" gate="G$1" x="167.64" y="109.22" smashed="yes">
 <attribute name="NAME" x="162.56" y="119.888" size="1.27" layer="95"/>
 </instance>
-<instance part="GND5" gate="1" x="200.66" y="104.14" smashed="yes">
-<attribute name="VALUE" x="200.66" y="103.886" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="GND6" gate="1" x="193.04" y="88.9" smashed="yes">
-<attribute name="VALUE" x="193.04" y="88.646" size="1.778" layer="96" align="top-center"/>
-</instance>
-<instance part="COMPASS_RST" gate="G$1" x="193.04" y="96.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="200.66" y="97.536" size="1.778" layer="95" rot="R180" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY33" gate="G$1" x="172.72" y="73.66" smashed="yes">
 <attribute name="VALUE" x="172.72" y="76.454" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="3V3_PWR" gate="1" x="172.72" y="71.12" smashed="yes" rot="R270">
 <attribute name="NAME" x="175.768" y="69.85" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="169.418" y="70.104" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="236.22" y="111.76" smashed="yes" rot="R270">
+<attribute name="VALUE" x="239.014" y="111.76" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="236.22" y="99.06" smashed="yes" rot="R270">
+<attribute name="VALUE" x="239.014" y="99.06" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="R6" gate="G$1" x="228.6" y="111.76" smashed="yes">
+<attribute name="NAME" x="228.6" y="113.284" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="228.6" y="110.236" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="R7" gate="G$1" x="228.6" y="99.06" smashed="yes">
+<attribute name="NAME" x="228.6" y="100.584" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="228.6" y="97.536" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="GND1" gate="1" x="199.898" y="114.3" smashed="yes" rot="R90">
+<attribute name="VALUE" x="202.692" y="114.3" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -3317,21 +3454,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="68.58" y="58.42" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
-<net name="GND" class="0">
-<segment>
-<pinref part="COMPASS" gate="G$1" pin="GND"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="180.34" y1="114.3" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="114.3" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="COMPASS" gate="G$1" pin="I2C_SEL"/>
-<wire x1="200.66" y1="106.68" x2="180.34" y2="106.68" width="0.1524" layer="91"/>
-<junction x="200.66" y="106.68"/>
-</segment>
-<segment>
-<pinref part="COMPASS_RST" gate="G$1" pin="1"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-</segment>
-</net>
 <net name="3V3_SWITCH" class="0">
 <segment>
 <pinref part="COMPASS" gate="G$1" pin="VCC"/>
@@ -3345,19 +3467,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="175.26" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BNO_RST" class="0">
-<segment>
-<pinref part="COMPASS" gate="G$1" pin="RESET"/>
-<wire x1="180.34" y1="101.6" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
-<label x="180.34" y="101.6" size="1.778" layer="95"/>
-<pinref part="COMPASS_RST" gate="G$1" pin="2"/>
-</segment>
-</net>
 <net name="SDA2" class="0">
 <segment>
 <pinref part="COMPASS" gate="G$1" pin="SDA"/>
 <wire x1="180.34" y1="111.76" x2="193.04" y2="111.76" width="0.1524" layer="91"/>
 <label x="182.88" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="223.52" y="106.68" size="1.778" layer="95" rot="R90"/>
+<wire x1="223.52" y1="115.57" x2="223.52" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="111.76" x2="223.52" y2="106.68" width="0.1524" layer="91"/>
+<junction x="223.52" y="111.76"/>
 </segment>
 </net>
 <net name="SCL2" class="0">
@@ -3366,11 +3487,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="180.34" y1="109.22" x2="193.04" y2="109.22" width="0.1524" layer="91"/>
 <label x="182.88" y="109.22" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="223.52" y="93.98" size="1.778" layer="95" rot="R90"/>
+<wire x1="223.52" y1="103.124" x2="223.52" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="99.06" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
+<junction x="223.52" y="99.06"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="SUPPLY33" gate="G$1" pin="3.3V"/>
 <pinref part="3V3_PWR" gate="1" pin="P"/>
+</segment>
+<segment>
+<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
+<wire x1="233.68" y1="111.76" x2="236.22" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
+<wire x1="233.68" y1="99.06" x2="236.22" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="COMPASS" gate="G$1" pin="GND"/>
+<wire x1="180.34" y1="114.3" x2="197.358" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
 </nets>
@@ -3807,13 +3952,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="205.74" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BNO_RST" class="0">
-<segment>
-<pinref part="STM32" gate="G$1" pin="PB0/ADC12_IN8/TIM3_CH3"/>
-<wire x1="101.6" y1="78.74" x2="88.9" y2="78.74" width="0.1524" layer="91"/>
-<label x="88.9" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="L2C" class="0">
 <segment>
 <pinref part="STM32" gate="G$1" pin="PC13-TAMPER-RTC"/>
@@ -3846,6 +3984,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="STM32" gate="G$1" pin="PB9/TIM4_CH4"/>
 <wire x1="200.66" y1="116.84" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
 <label x="203.2" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDA2" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PB11/I2C2_SDA/USART3_RX"/>
+<wire x1="101.6" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
+<label x="88.9" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCL2" class="0">
+<segment>
+<pinref part="STM32" gate="G$1" pin="PB10/I2C2_SCL/USART3_TX"/>
+<wire x1="101.6" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
+<label x="88.9" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
