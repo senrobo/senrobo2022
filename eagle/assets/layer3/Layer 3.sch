@@ -1196,7 +1196,7 @@ www.fma.fujitsu.com/pdf/e713717.pdf</description>
 <packageinstance name="LQFP48"/>
 </packageinstances>
 </package3d>
-<package3d name="TSSP58038" urn="urn:adsk.eagle:package:16764129/7" type="model" library_version="203">
+<package3d name="TSSP58038" urn="urn:adsk.eagle:package:16764129/9" type="model" library_version="231">
 <description>&lt;h3&gt;Plated Through Hole - 3 Pin Locking Footprint&lt;/h3&gt;
 Pins are staggered 0.005" off center to lock pins while soldering. 
 &lt;p&gt;Specifications:
@@ -1523,7 +1523,7 @@ Holes are offset 0.005", to hold pins in place during soldering.
 </device>
 </devices>
 </deviceset>
-<deviceset name="TSSP58038" urn="urn:adsk.eagle:component:16767250/5" library_version="203">
+<deviceset name="TSSP58038" urn="urn:adsk.eagle:component:16767250/7" library_version="231">
 <gates>
 <gate name="G$1" symbol="TSSP58038" x="0" y="0"/>
 </gates>
@@ -1535,7 +1535,7 @@ Holes are offset 0.005", to hold pins in place during soldering.
 <connect gate="G$1" pin="VS" pad="VS"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -5970,19 +5970,6 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 </package>
 </packages>
 <packages3d>
-<package3d name="1X02" urn="urn:adsk.eagle:package:38039/1" type="box" library_version="4">
-<description>Plated Through Hole
-Specifications:
-Pin count:2
-Pin pitch:0.1"
-
-Example device(s):
-CONN_02
-</description>
-<packageinstances>
-<packageinstance name="1X02"/>
-</packageinstances>
-</package3d>
 <package3d name="MOLEX-1X2" urn="urn:adsk.eagle:package:38040/1" type="box" library_version="4">
 <description>Molex 2-Pin Plated Through-Hole
 Specifications:
@@ -6308,6 +6295,19 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 <packageinstance name="JST-2-PTH-VERT-LOCK"/>
 </packageinstances>
 </package3d>
+<package3d name="1X02" urn="urn:adsk.eagle:package:33157007/2" type="model" library_version="8">
+<description>Plated Through Hole
+Specifications:
+Pin count:2
+Pin pitch:0.1"
+
+Example device(s):
+CONN_02
+</description>
+<packageinstances>
+<packageinstance name="1X02"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="CONN_02" urn="urn:adsk.eagle:symbol:37653/1" library_version="4">
@@ -6325,7 +6325,7 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CONN_02" urn="urn:adsk.eagle:component:19830586/2" prefix="J" uservalue="yes" library_version="4">
+<deviceset name="CONN_02" urn="urn:adsk.eagle:component:19830586/3" prefix="J" uservalue="yes" library_version="8">
 <description>&lt;h3&gt;Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections&lt;/h3&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -6373,7 +6373,7 @@ Pins are offset 0.005" from center to lock pins in place during soldering.
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38039/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:33157007/2"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -7083,76 +7083,76 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="BOOT" library="MY-LIBRARY" library_urn="urn:adsk.eagle:library:11016882" deviceset="MOMENTARY_SWITCH_4X3" device="" package3d_urn="urn:adsk.eagle:package:11016890/3" value="MOMENTARY_SWITCH_4X3"/>
 <part name="X1" library="con-JST SH" library_urn="urn:adsk.eagle:library:16859530" deviceset="SM06B-SRSS" device="-TB" package3d_urn="urn:adsk.eagle:package:16859586/2"/>
 <part name="FRAME3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
-<part name="3U1" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U1" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C1" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U2" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U2" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C2" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U3" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U3" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C3" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U4" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U4" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C4" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U5" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U5" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C5" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U6" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U6" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C6" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U7" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U7" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C7" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U8" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U8" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C8" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U9" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U9" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C9" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U10" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U10" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C10" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U11" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U11" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C11" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U12" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U12" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C12" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U13" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U13" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C13" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U14" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U14" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C14" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U15" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U15" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C15" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U16" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U16" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C16" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U17" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U17" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C17" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U18" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U18" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C18" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U19" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U19" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C19" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U20" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U20" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C20" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U21" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U21" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C21" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U22" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U22" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C22" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U23" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U23" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C23" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="3U24" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/7"/>
+<part name="3U24" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="TSSP58038" device="" package3d_urn="urn:adsk.eagle:package:16764129/9"/>
 <part name="3C24" library="JH" library_urn="urn:adsk.eagle:library:6027132" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15441226/3"/>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FRAME4" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
