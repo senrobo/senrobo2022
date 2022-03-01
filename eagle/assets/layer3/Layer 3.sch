@@ -8858,9 +8858,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="48.26" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="129.54" y1="101.6" x2="147.32" y2="101.6" width="0.1524" layer="91"/>
-<label x="147.32" y="103.378" size="1.778" layer="95" rot="R180"/>
-<pinref part="TEENSY4" gate="G$1" pin="D14/A0"/>
+<wire x1="71.12" y1="124.46" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
+<label x="81.28" y="126.238" size="1.778" layer="95" rot="R180"/>
+<pinref part="TEENSY4" gate="G$1" pin="D0/RX1"/>
 </segment>
 </net>
 <net name="TX3_ST1" class="0">
@@ -8870,9 +8870,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="48.26" y="142.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="129.54" y1="99.06" x2="147.32" y2="99.06" width="0.1524" layer="91"/>
-<label x="147.32" y="100.838" size="1.778" layer="95" rot="R180"/>
-<pinref part="TEENSY4" gate="G$1" pin="D13/SCK/LED"/>
+<wire x1="71.12" y1="121.92" x2="83.82" y2="121.92" width="0.1524" layer="91"/>
+<label x="81.28" y="123.698" size="1.778" layer="95" rot="R180"/>
+<pinref part="TEENSY4" gate="G$1" pin="D1/TX1"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -9044,9 +9044,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="248.92" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY4" gate="G$1" pin="D1/TX1"/>
-<wire x1="83.82" y1="121.92" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
-<label x="73.66" y="121.92" size="1.778" layer="95"/>
+<wire x1="139.7" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
+<label x="129.54" y="99.06" size="1.778" layer="95"/>
+<pinref part="TEENSY4" gate="G$1" pin="D13/SCK/LED"/>
 </segment>
 </net>
 <net name="SS" class="0">
@@ -9056,9 +9056,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="248.92" y="152.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TEENSY4" gate="G$1" pin="D0/RX1"/>
-<wire x1="83.82" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
-<label x="73.66" y="124.46" size="1.778" layer="95"/>
+<wire x1="83.82" y1="99.06" x2="73.66" y2="99.06" width="0.1524" layer="91"/>
+<label x="73.66" y="99.06" size="1.778" layer="95"/>
+<pinref part="TEENSY4" gate="G$1" pin="D10/CS"/>
 </segment>
 </net>
 <net name="SDA0_TEE" class="0">
