@@ -9044,8 +9044,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="248.92" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="139.7" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
-<label x="129.54" y="99.06" size="1.778" layer="95"/>
+<wire x1="142.24" y1="99.06" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
+<label x="137.16" y="99.06" size="1.778" layer="95"/>
 <pinref part="TEENSY4" gate="G$1" pin="D13/SCK/LED"/>
 </segment>
 </net>
