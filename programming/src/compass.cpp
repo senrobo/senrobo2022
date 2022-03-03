@@ -10,12 +10,12 @@ uint16_t BNO055_SAMPLERATE_DELAY_MS = 100;
 //                                   id, address
 Adafruit_BNO055 bno = Adafruit_BNO055(WIRE1_BUS, -1, BNO055_ADDRESS_A, I2C_MASTER, I2C_PINS_18_19, I2C_PULLUP_EXT, I2C_RATE_100, I2C_OP_MODE_ISR);
 
-void setup(void)
+void setup(void)  
 {
   Serial.begin(115200);
   Serial.println("Orientation Sensor Test"); Serial.println("");
 
-  /* Initialise the sensor */
+  /* Initialise the sensor */  
   while (!bno.begin())
   {
     /* There was a problem detecting the BNO055 ... check your connections */
