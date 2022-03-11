@@ -1,0 +1,25 @@
+Bottom Left MUX
+Digital Signal Pins:
+Sig : 1
+
+Control Pins:
+LS0: 10
+LS1: 11
+LS2: 14
+LS3: 13
+
+Bottom Right MUX
+Sig: 1
+Control Pins:
+LS0: 10
+LS1: 11
+LS2: 14
+LS3: 13
+
+Top Right MUX
+Sig: 1
+Control Pins:
+LS0: 10
+LS1: 11
+LS2: 14
+LS3: 13

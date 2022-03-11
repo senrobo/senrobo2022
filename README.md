@@ -13,4 +13,4 @@ Yay we passed the 100th commit milestone
 | Part Name  | Part Description | 
 | ------------- | ------------- |
 | OpenMV H7/R7  | Camera  |
-| MUX  | Multiplexer (https://github.com/stechio/arduino-ad-mux-lib) | 
+| MUX  | Multiplexer (https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf) | 
