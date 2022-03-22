@@ -8,9 +8,9 @@ Yay we passed the 100th commit milestone
 ### Mechanical
 - Kicker Done on 20/1/2022
 
-### Electrical
-- Layer 3 and 4 PCB Done on 19/1/2022
+### Parts used
 
-### Programming
-
-Screw Git LFS
+| Part Name  | Part Description | 
+| ------------- | ------------- |
+| OpenMV H7/R7  | Camera  |
+| MUX  | Multiplexer (https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf) | 
