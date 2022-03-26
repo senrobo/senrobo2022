@@ -1,0 +1,7 @@
+<cfd_design_studies version="21.0.20201120" user_name="vince">
+ <design_study name="test" instance_id="id_not_defined" study_id="948442fc-baf7-4245-8628-c147a8572073" folder="C:/Users/vince/teamevohci2022/.stl/test">
+  <design name="Design 1" model_id="batteryMount.stl" launcher_type="CP_UNKNOWN" lock_status="false">
+   <analysis name="Scenario 1"/>
+  </design>
+ </design_study>
+</cfd_design_studies>
