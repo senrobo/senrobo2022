@@ -6,10 +6,14 @@
 #include <math.h>
 
 void setup(){
-    Serial.println("Starting...");
-    
+    // PWM 22
+    // DIR 21
+    pinMode(21,OUTPUT);
+    pinMode(22,OUTPUT);
 }
 
 void loop(){
-
+    analogWrite(21,255);
+    digitalWrite(22,HIGH);
+    delay(1000);
 }
