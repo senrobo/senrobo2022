@@ -1,4 +1,4 @@
-# Sentinels RoboticsS
+# Sentinels Robotics
 
 Yay we passed the 100th commit milestone
 400 Commit milestone
